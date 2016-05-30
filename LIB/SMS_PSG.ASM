@@ -10,7 +10,7 @@ macro PSGWrite(DATA) { // DATA = Bytes To Send To PSG Register
 }
 
 // Write Data Byte To PSG
-macro PSGWriteByte(DATA) // DATA = Byte To Send To VDP Register
+macro PSGWriteByte(DATA) { // DATA = Byte To Send To VDP Register
   ld a,{DATA} // A = PSG Data
   out ($7F),a // Write PSG Data To PSG Register
 }
