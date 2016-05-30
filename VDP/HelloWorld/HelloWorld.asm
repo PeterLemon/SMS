@@ -17,9 +17,9 @@ include "LIB\SMS_HEADER.ASM" // Include SMS Header
 include "LIB\SMS_VDP.ASM" // Include VDP Macros
 
 seek($0000)
-  di // Disable Interrupts
-  im 1 // Set Interrupt Mode 1
-  jp Start
+di // Disable Interrupts
+im 1 // Set Interrupt Mode 1
+jp Start
 
 seek($0100); Start:
 // Load Palette
