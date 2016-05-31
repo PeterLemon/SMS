@@ -1,0 +1,34 @@
+// 6-Bit BGR222
+//    BBGGRR
+db %00000000 // Black * Clear Colour (Start Of 1st Palette)
+db %00001111 // Yellow
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000 // Black * Clear Colour (Start Of 2nd Palette)
+db %00000011 // Red
+db %00001100 // Green
+db %00110000 // Blue
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
+db %00000000
