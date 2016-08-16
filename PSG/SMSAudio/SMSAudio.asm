@@ -9,10 +9,10 @@ macro seek(variable offset) {
 
 // BANK 0..7 (128KB)
 seek($0000); fill $20000 // Fill Bank 0..7 With Zero Bytes
-include "LIB\SMS_HEADER.ASM" // Include SMS Header
-include "LIB\SMS_INPUT.ASM" // includes INPUT Macros
-include "LIB\SMS_PSG.ASM" // includes PSG Macros
-include "LIB\SMS_VDP.ASM" // Include VDP Macros
+include "LIB/SMS_HEADER.ASM" // Include SMS Header
+include "LIB/SMS_INPUT.ASM" // includes INPUT Macros
+include "LIB/SMS_PSG.ASM" // includes PSG Macros
+include "LIB/SMS_VDP.ASM" // Include VDP Macros
 
 seek($0000)
 di // Disable Interrupts
